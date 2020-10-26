@@ -39,8 +39,10 @@ namespace adbGUI.Methods
                 RedirectStandardOutput = true,
                 RedirectStandardError = true,
                 RedirectStandardInput = true,
-                StandardOutputEncoding = Encoding.GetEncoding(866),
-                StandardErrorEncoding = Encoding.GetEncoding(866)
+                StandardOutputEncoding = Encoding.UTF8,
+                StandardErrorEncoding = Encoding.UTF8
+               // StandardOutputEncoding = Encoding.GetEncoding(866),
+                //StandardErrorEncoding = Encoding.GetEncoding(866)
             }
         };
 
